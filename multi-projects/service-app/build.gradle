@@ -1,0 +1,15 @@
+buildscript {
+    repositories { jcenter() }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.2.RELEASE")
+    }
+}
+
+//http://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-gradle-plugin.html
+apply plugin: 'spring-boot'
+
+dependencies {    
+    compile("org.springframework.boot:spring-boot-starter-web:1.2.2.RELEASE")
+	compile project(':service-contract')
+	testCompile("org.springframework.boot:spring-boot-starter-test:1.2.2.RELEASE")
+}
