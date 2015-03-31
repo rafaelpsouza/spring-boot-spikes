@@ -1,0 +1,28 @@
+buildscript {
+    repositories { jcenter() }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.2.RELEASE")
+    }
+}
+
+apply plugin: 'spring-boot'
+
+allprojects {    
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    version = '1.0'
+    sourceCompatibility = 1.8    
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {    
+    	compile("org.springframework.boot:spring-boot-starter-web:1.2.2.RELEASE")
+		compile("org.springframework.boot:spring-boot-starter-jersey:1.2.2.RELEASE")
+        testCompile("org.springframework.boot:spring-boot-starter-test:1.2.2.RELEASE")
+    } 
+}
+
+subprojects {
+	bootRepackage.enabled = false
+}
