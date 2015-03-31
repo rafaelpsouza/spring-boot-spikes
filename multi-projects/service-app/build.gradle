@@ -9,7 +9,10 @@ buildscript {
 apply plugin: 'spring-boot'
 
 dependencies {    
-    compile("org.springframework.boot:spring-boot-starter-web:1.2.2.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-web:1.2.2.RELEASE"){
+    	  exclude module: "spring-boot-starter-tomcat:1.2.2.RELEASE"
+ 	}
+    compile("org.springframework.boot:spring-boot-starter-jetty:1.2.2.RELEASE")
 	compile project(':service-contract')
 	testCompile("org.springframework.boot:spring-boot-starter-test:1.2.2.RELEASE")
 }
