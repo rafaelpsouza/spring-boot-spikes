@@ -1,0 +1,27 @@
+buildscript {
+    repositories { jcenter() }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.2.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+	jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework.boot:spring-boot-starter-jdbc")
+    compile("org.mybatis:mybatis:3.2.8")
+    compile("org.mybatis:mybatis-spring:1.2.2")
+    runtime("com.h2database:h2:1.4.186")   
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+}
