@@ -19,9 +19,13 @@ repositories {
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter")
-    compile("org.springframework.boot:spring-boot-starter-jdbc")
+    compile("org.springframework.boot:spring-boot-starter-jdbc"){
+   		 exclude module: "tomcat-jdbc"
+    }
     compile("org.mybatis:mybatis:3.2.8")
     compile("org.mybatis:mybatis-spring:1.2.2")
-    runtime("com.h2database:h2:1.4.186")   
+    compile("com.zaxxer:HikariCP:2.3.6")
+    runtime("org.postgresql:postgresql:9.4-1201-jdbc41")
+    //runtime("com.h2database:h2:1.4.186")   
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }

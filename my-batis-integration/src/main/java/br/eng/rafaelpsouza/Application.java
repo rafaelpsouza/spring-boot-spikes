@@ -31,10 +31,9 @@ public class Application implements CommandLineRunner{
 		itemMapper.create(new Item("444-444-444-444", "Item nro 4", new BigDecimal(4.70)));
 		itemMapper.create(new Item("555-555-555-555", "Item nro 5", new BigDecimal(110.0)));
 		itemMapper.create(new Item("666-666-666-666", "Item nro 6", new BigDecimal(20.0)));
-				
-		itemMapper.listAll().forEach(item -> System.out.println(item));
-		System.out.println("Get by id(1): "+itemMapper.getById(1L));
 		
+		itemMapper.listAll().forEach(item -> System.out.println(item));
+		System.out.println("Get by id(1): "+itemMapper.getById(1L));		
 	}
 	
 	//http://mybatis.github.io/spring/

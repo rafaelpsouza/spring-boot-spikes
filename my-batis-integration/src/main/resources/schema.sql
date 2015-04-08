@@ -1,5 +1,5 @@
 create table IF NOT EXISTS ITEM_TABLE (
-  ITEM_ID int primary key auto_increment,
+  ITEM_ID serial primary key,
   ITEM_BARCODE varchar(70),
   ITEM_DESCRIPTION varchar(255),
   ITEM_PRICE decimal

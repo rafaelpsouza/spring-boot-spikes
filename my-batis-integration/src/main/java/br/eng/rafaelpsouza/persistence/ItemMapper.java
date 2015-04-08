@@ -29,7 +29,7 @@ public interface ItemMapper {
 	public Item getById(Long id);
 	
 	@Insert(value = "insert into ITEM_TABLE(ITEM_BARCODE, ITEM_DESCRIPTION, ITEM_PRICE) values (#{barCode}, #{description}, #{price});")
-	@SelectKey(statement="call identity()", keyProperty="id", before=false, resultType=Long.class)
+	@SelectKey(statement="select nextval('item_table_item_id_seq')", keyProperty="id", before=false, resultType=Long.class)
 	public int create(Item item);
 
 }
