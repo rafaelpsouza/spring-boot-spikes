@@ -4,11 +4,11 @@ import java.math.BigDecimal;
 
 public class Item {
 	
-	public Long id;
-	public String barCode;
-	public String description;
-	public BigDecimal price;
-		
+	private Long id;
+	private String barCode;
+	private String description;
+	private BigDecimal price;
+			
 	public Item() {}
 	
 	public Item(Long id, String barCode, String description, BigDecimal price) {

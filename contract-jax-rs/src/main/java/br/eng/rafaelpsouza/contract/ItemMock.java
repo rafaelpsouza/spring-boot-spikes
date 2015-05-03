@@ -19,7 +19,7 @@ public class ItemMock {
 	
 	
 	public static Item getById(Long id){
-		return items.stream().filter(item -> item.id == id).findFirst().get();
+		return items.stream().filter(item -> item.getId() == id).findFirst().get();
 	}
 	
 	public static List<Item> listAll(){

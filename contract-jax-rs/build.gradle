@@ -1,7 +1,7 @@
 buildscript {
     repositories { jcenter() }
     dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.2.RELEASE")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.2.3.RELEASE")
     }
 }
 
@@ -25,7 +25,8 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-jersey")
+    compile("org.springframework.boot:spring-boot-starter-jetty")
+    compile("com.wordnik:swagger-jersey2-jaxrs:1.5.1-M2")
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }

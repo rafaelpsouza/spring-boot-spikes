@@ -17,9 +17,16 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
+import com.wordnik.swagger.annotations.Api;
+import com.wordnik.swagger.annotations.ApiOperation;
+import com.wordnik.swagger.annotations.ApiParam;
+import com.wordnik.swagger.annotations.ApiResponse;
+import com.wordnik.swagger.annotations.ApiResponses;
+
 //https://jersey.java.net/documentation/latest/jaxrs-resources.html#d0e1914
 //http://tools.ietf.org/html/rfc7231#section-4.3
 @Path("/v1")
+@Api(tags = "items")
 public class Endpoint {
 
 	@Context
@@ -28,6 +35,7 @@ public class Endpoint {
 	@GET
 	@Path("/items")
 	@Produces(MediaType.APPLICATION_JSON)
+	@ApiOperation(value = "List all items", response = Item.class, responseContainer = "List")
 	public List<Item> list() {
 		return ItemMock.listAll();
 	}
@@ -35,13 +43,16 @@ public class Endpoint {
 	@GET
 	@Path("/items/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Item get(@PathParam("id") Long id) {
+	@ApiOperation(value = "Get item by id", response = Item.class)
+	public Item get(@ApiParam(value = "Item id", required = true) @PathParam("id") Long id) {
 		return ItemMock.getById(id);
 	}
 
 	@DELETE
 	@Path("/items/{id}")
-	public Response delete(@PathParam("id") Long id) {
+	@ApiOperation(value = "Delete Item")
+	@ApiResponses({ @ApiResponse(code = 204, message = "Deleted") })
+	public Response delete(@ApiParam(value = "Item id", required = true) @PathParam("id") Long id) {
 		ItemMock.delete(id);
 		return Response.noContent().build();
 	}
@@ -49,16 +60,21 @@ public class Endpoint {
 	@POST
 	@Path("/items")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response create(Item item) {
+	@ApiOperation(value = "Create Item")
+	@ApiResponses({ @ApiResponse(code = 201, message = "Created") })
+	public Response create(@ApiParam(value = "Item to add", required = true) Item item) {
 		ItemMock.add(item);
-		return Response.created(uriInfo.getAbsolutePathBuilder().path(String.valueOf(item.id)).build()).build();
+		return Response.created(uriInfo.getAbsolutePathBuilder().path(String.valueOf(item.getId())).build()).build();
 	}
 
 	@PUT
 	@Path("/items/{id}")
-	public Response update(@PathParam("id") Long id, @QueryParam("barCode") String barCode,
-			@QueryParam("description") String description,
-			@QueryParam("price") BigDecimal price) {
+	@ApiOperation(value = "Update Item")
+	@ApiResponses({ @ApiResponse(code = 203, message = "Updated") })
+	public Response update(@ApiParam(value = "Item id", required = true) @PathParam("id") Long id, 
+			@ApiParam(value = "barCode") @QueryParam("barCode") String barCode,
+			@ApiParam(value = "Description") @QueryParam("description") String description,
+			@ApiParam(value = "Price") @QueryParam("price") BigDecimal price) {
 		ItemMock.update(id, barCode, description, price);
 		return Response.ok().build();
 	}
