@@ -1,1 +1,1 @@
-include 'service-contract', 'service-impl', 'service-app'
+include 'service-endpoints', 'service-implementation', 'service-app'

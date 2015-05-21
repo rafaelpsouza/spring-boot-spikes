@@ -5,14 +5,13 @@ buildscript {
     }
 }
 
-//http://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-gradle-plugin.html
 apply plugin: 'spring-boot'
 
 dependencies {    
+	compile project(':service-endpoints')
     compile("org.springframework.boot:spring-boot-starter-web:"+deps.springBootVersion){
     	  exclude module: "spring-boot-starter-tomcat:"+deps.springBootVersion
  	}
-    compile("org.springframework.boot:spring-boot-starter-jetty:"+deps.springBootVersion)
-	compile project(':service-contract')
+    compile("org.springframework.boot:spring-boot-starter-jetty:"+deps.springBootVersion)	
 	testCompile("org.springframework.boot:spring-boot-starter-test:"+deps.springBootVersion)
 }

@@ -1,4 +1,4 @@
-package br.eng.rafaelpsouza.mapper;
+package br.eng.rafaelpsouza.adapter;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 import br.eng.rafaelpsouza.contract.Item;
 import br.eng.rafaelpsouza.impl.ItemModel;
 
-public class ItemMapper {
+public class ItemAdapter {
 	
 	public Item bindFromModel(ItemModel itemModel){
 		return new Item(itemModel.getId(), itemModel.getBarCode(), itemModel.description, itemModel.getPrice());

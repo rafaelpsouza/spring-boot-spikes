@@ -17,8 +17,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
+import br.eng.rafaelpsouza.adapter.ItemAdapter;
 import br.eng.rafaelpsouza.impl.ItemMock;
-import br.eng.rafaelpsouza.mapper.ItemMapper;
 
 //https://jersey.java.net/documentation/latest/jaxrs-resources.html#d0e1914
 //http://tools.ietf.org/html/rfc7231#section-4.3
@@ -27,20 +27,20 @@ public class Endpoint {
 
 	@Context
 	UriInfo uriInfo;
-	ItemMapper mapper = new ItemMapper();
+	ItemAdapter adapter = new ItemAdapter();
 
 	@GET
 	@Path("/items")
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<Item> list() {
-		return mapper.bindFromModel(ItemMock.listAll());
+		return adapter.bindFromModel(ItemMock.listAll());
 	}
 
 	@GET
 	@Path("/items/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Item get(@PathParam("id") Long id) {
-		return mapper.bindFromModel(ItemMock.getById(id));
+		return adapter.bindFromModel(ItemMock.getById(id));
 	}
 
 	@DELETE
@@ -54,7 +54,7 @@ public class Endpoint {
 	@Path("/items")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response create(Item item) {
-		ItemMock.add(mapper.bindToModel(item));
+		ItemMock.add(adapter.bindToModel(item));
 		return Response.created(uriInfo.getAbsolutePathBuilder().path(String.valueOf(item.id)).build()).build();
 	}
 
