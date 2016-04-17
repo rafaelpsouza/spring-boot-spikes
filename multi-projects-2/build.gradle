@@ -1,0 +1,16 @@
+ext.deps = [
+    springBootVersion:'1.2.3.RELEASE'
+]
+
+allprojects {
+    apply plugin: 'java'
+    version = '1.1'
+    sourceCompatibility = 1.8    
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {    
+    	
+    } 
+}

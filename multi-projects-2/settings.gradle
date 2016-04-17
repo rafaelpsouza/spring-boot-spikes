@@ -1,0 +1,1 @@
+include 'service-contract', 'service-jersey-app', 'service-implementation'
