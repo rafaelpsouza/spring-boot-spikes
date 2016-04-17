@@ -15,5 +15,6 @@ dependencies {
     }
     compile("org.springframework.boot:spring-boot-starter-jetty:"+deps.springBootVersion)
     compile("org.springframework.boot:spring-boot-starter-jersey:"+deps.springBootVersion)
+    compile("org.springframework.boot:spring-boot-starter-actuator:"+deps.springBootVersion)
     testCompile("org.springframework.boot:spring-boot-starter-test:"+deps.springBootVersion)
 }
