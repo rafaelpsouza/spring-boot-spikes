@@ -1,4 +1,4 @@
 dependencies {
 	compile project(':service-implementation')
-	compile("org.springframework.boot:spring-boot-starter-jersey:"+deps.springBootVersion)
+	compile("org.springframework.boot:spring-boot-starter-jersey")
 }

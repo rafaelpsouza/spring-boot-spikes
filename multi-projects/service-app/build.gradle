@@ -1,17 +1,13 @@
-buildscript {
-    repositories { jcenter() }
-    dependencies {
-        classpath("org.springframework.boot:spring-boot-gradle-plugin:"+deps.springBootVersion)
-    }
+bootRepackage {
+	enabled = true
 }
 
-apply plugin: 'spring-boot'
+springBoot {
+  executable = true
+  excludeDevtools = true
+}
 
 dependencies {    
 	compile project(':service-endpoints')
-    compile("org.springframework.boot:spring-boot-starter-web:"+deps.springBootVersion){
-    	  exclude module: "spring-boot-starter-tomcat:"+deps.springBootVersion
- 	}
-    compile("org.springframework.boot:spring-boot-starter-jetty:"+deps.springBootVersion)	
-	testCompile("org.springframework.boot:spring-boot-starter-test:"+deps.springBootVersion)
+    compile("org.springframework.boot:spring-boot-starter-web")
 }

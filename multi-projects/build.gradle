@@ -1,17 +1,19 @@
-ext.deps = [
-    springBootVersion:'1.2.3.RELEASE'
-]
+plugins {
+    id 'org.springframework.boot' version '1.5.13.RELEASE' apply false
+    id 'java'
+}
 
-allprojects {    
-    apply plugin: 'java'
-    apply plugin: 'eclipse'
-    version = '1.0'
-    sourceCompatibility = 1.8    
-    repositories {
-        jcenter()
-        mavenCentral()
+subprojects {    
+    apply plugin: "java"
+    apply plugin: "org.springframework.boot"
+    bootRepackage {
+        enabled = false
     }
-    dependencies {    
-    	
-    } 
+    repositories {
+        mavenCentral()
+        jcenter()
+    }  
+    dependencies {
+        testCompile("org.springframework.boot:spring-boot-starter-test")
+    }
 }
