@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id "org.springframework.boot" version "1.5.15.RELEASE"
+}
+
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'micrometer-graphite'
+}
+
+springBoot {
+    executable = true
+    excludeDevtools = true
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-aop'
+    compile "org.springframework.boot:spring-boot-starter-jdbc"
+    compile 'io.micrometer:micrometer-spring-legacy:latest.release'
+    compile 'io.micrometer:micrometer-registry-graphite:latest.release'
+    //compile 'io.micrometer:micrometer-registry-jmx:latest.release'
+    compile 'org.postgresql:postgresql:9.4.1212'
+}

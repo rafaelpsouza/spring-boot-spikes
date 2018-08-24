@@ -1,0 +1,22 @@
+bootRepackage {
+	enabled = true
+	//customConfiguration = "mycustomconfiguration"
+}
+
+/*configurations {
+    mycustomconfiguration.exclude group: 'org.springframework'    
+}*/
+
+springBoot {
+  executable = true
+  excludeDevtools = true
+  backupSource = true
+  layout = 'DIR'
+}
+
+
+dependencies {    
+	//mycustomconfiguration configurations.runtime
+	compile project(':service-endpoints')
+    compile("org.springframework.boot:spring-boot-starter-web")
+}

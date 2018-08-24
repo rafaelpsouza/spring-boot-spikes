@@ -1,0 +1,15 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.13.RELEASE'
+    id 'java'
+}
+
+repositories {
+    jcenter()
+}
+
+allprojects {
+    sourceCompatibility = 1.8    
+    dependencies {
+        testCompile("org.springframework.boot:spring-boot-starter-test")    	
+    } 
+}

@@ -1,0 +1,34 @@
+---
+- hosts: all 
+  sudo: yes
+  tasks:
+  - name: Ensure Latest python-software-properties is present
+    apt: name=python-software-properties state=latest update_cache=yes
+
+  - name: Ensure Java apt repo present
+    apt_repository: repo='ppa:webupd8team/java' state=present
+
+  - name: Set licence selected
+    shell: /bin/echo debconf shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
+
+  - name: Set licence seen
+    shell: /bin/echo debconf shared/accepted-oracle-license-v1-1 seen true | /usr/bin/debconf-set-selections
+    sudo: yes
+
+  - name: Ensure Latest Oracle Java 8 is present
+    apt: name=oracle-java8-installer state=latest update_cache=yes
+
+  - name: Ensure Latest Git is present
+    apt: name=git state=latest
+
+  - name: Clone Service repository
+    git: repo=https://github.com/rafaelpsouza/spring-boot-jersey-multi-project.git dest=/opt/service version=ffcfbb6a0d19438059c4c2eed399e3347612d257
+
+  - name: Make example-service a system service
+    copy: src=files/example-service dest=/etc/init.d/ mode=755
+
+  - name: Ensure example-service service is running
+    service: name=example-service state=started
+
+  - name: Ensure example-service is enabled
+    service: name=example-service enabled=yes

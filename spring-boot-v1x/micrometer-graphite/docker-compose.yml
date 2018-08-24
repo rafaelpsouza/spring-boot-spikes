@@ -1,0 +1,35 @@
+---
+version: "3"
+services:
+  postgresql:
+    environment:
+    - POSTGRES_PASSWORD=mysecretpassword
+    - POSTGRES_DB=rafael
+    image: "postgres:9.5"
+    ports:
+    - "5432:5432"
+  graphite:
+    image: graphiteapp/graphite-statsd
+    restart: always
+    ports:
+    - "80:80"
+    #- "2003-2004:2003-2004/udp"
+    - "2023-2024:2023-2024"
+    - "2003:2003/udp"
+    #- "8126:8126"
+    volumes:
+    - "/tmp/data/graphite:/opt/graphite/storage/whisper"
+    - "./carbon.conf:/opt/graphite/conf/carbon.conf"
+    environment:
+      - ENABLE_UDP_LISTENER=True
+  grafana:
+    image: grafana/grafana
+    restart: always
+    ports:
+    - "3000:3000"
+    volumes:
+    - "/tmp/data/grafana:/tmp/grafana"
+    links:
+    - graphite
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin

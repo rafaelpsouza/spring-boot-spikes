@@ -1,0 +1,2197 @@
+2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] Looking for plugins in: /home/rafael/sources/spring-boot-spikes/spring-data-rest
+2016/01/20 01:29:34 [DEBUG] Looking for plugins in: /home/rafael/.otto.d/plugins
+2016/01/20 01:29:34 [DEBUG] Looking for plugins in: /home/rafael/dev/otto
+2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-python]
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-php]
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-node]
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-go]
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-scriptpack]
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-ruby]
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-java]
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-docker-external]
+2016/01/20 01:29:34 [DEBUG] Detected plugin: <builtin> [plugin-builtin app-custom]
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-custom"}
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-node"}
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-python"}
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-scriptpack"}
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-ruby"}
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-go"}
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-java"}
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-docker-external"}
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin048001056
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin194373315
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin096852217
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin785801153
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin142963159
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin219706401
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin981883422
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] Starting plugin: /home/rafael/dev/otto/otto []string{"/home/rafael/dev/otto/otto", "plugin-builtin", "app-php"}
+2016/01/20 01:29:34 [DEBUG] Waiting for RPC address for: /home/rafael/dev/otto/otto
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin725282626
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] Otto version: 0.2.0  4ff0dce79f07008dcebcf34f118e8ec3dc4f96a5+CHANGES
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Plugin address: unix /tmp/otto-plugin089737129
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 Detected home directory from env var: /home/rafael
+2016/01/20 01:29:34 [DEBUG] loading detectors from: /home/rafael/.otto.d/detect
+2016/01/20 01:29:34 [DEBUG] reading IP, cache path: /tmp/otto038602122/local/dev_ip
+2016/01/20 01:29:34 [DEBUG] no ip cache found, getting new IP
+2016/01/20 01:29:34 [DEBUG] new IP cached: 100.74.45.145
+2016/01/20 01:29:34 [INFO] Loading app implementation for Tuple: ("java", "aws", "simple")
+2016/01/20 01:29:34 [DEBUG] compiling dependencies for: spring-data-rest
+2016/01/20 01:29:34 [INFO] deleting prior compilation contents: /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled
+2016/01/20 01:29:34 [INFO] running infra compile...
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/simple => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/infra-spring-data-rest
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: outputs.tf
+2016/01/20 01:29:34 [INFO] running foundation compilations
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul/app-deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-dev
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-dev => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul/app-dev
+2016/01/20 01:29:34 [DEBUG] Copying asset: layer.id
+2016/01/20 01:29:34 [DEBUG] Copying asset: layer.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: upstart.conf
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-dev-dep
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-dev-dep => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul/app-dev-dep
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul/deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: module-aws
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy/module-aws => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul/deploy/module-aws
+2016/01/20 01:29:34 [DEBUG] Copying asset: outputs.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: join.sh
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: module-aws-simple
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy/module-aws-simple => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul/deploy/module-aws-simple
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: outputs.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: setup.sh
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-build
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-build => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul/app-build
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: upstart.conf.tpl
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/aws-simple => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul
+2016/01/20 01:29:34 [DEBUG] Copying asset: deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/aws-simple/deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/foundation-consul/deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] core walking app: spring-data-rest
+2016/01/20 01:29:34 [DEBUG] reading IP, cache path: /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/data/dev_ip
+2016/01/20 01:29:34 [DEBUG] no ip cache found, getting new IP
+2016/01/20 01:29:34 [DEBUG] new IP cached: 100.83.206.166
+2016/01/20 01:29:34 [INFO] Loading app implementation for Tuple: ("java", "aws", "simple")
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-build
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-build => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-build
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: upstart.conf.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-dev
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-dev => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-dev
+2016/01/20 01:29:34 [DEBUG] Copying asset: upstart.conf
+2016/01/20 01:29:34 [DEBUG] Copying asset: layer.id
+2016/01/20 01:29:34 [DEBUG] Copying asset: layer.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-dev-dep
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-dev-dep => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-dev-dep
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: module-aws
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy/module-aws => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/deploy/module-aws
+2016/01/20 01:29:34 [DEBUG] Copying asset: join.sh
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: outputs.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: module-aws-simple
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy/module-aws-simple => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/deploy/module-aws-simple
+2016/01/20 01:29:34 [DEBUG] Copying asset: setup.sh
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: outputs.tf
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/aws-simple => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul
+2016/01/20 01:29:34 [DEBUG] Copying asset: deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/aws-simple/deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying all assets: data => /tmp/otto561485316/STDLIB
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: output.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: vagrant.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: apt.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: error.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: execute.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: locale.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] creating archive from /tmp/otto561485316
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying all assets: data => /tmp/otto056733654/STDLIB
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: error.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: execute.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: locale.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: output.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: vagrant.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: apt.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying all assets: data => /tmp/otto056733654/JAVA
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: install.sh
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] creating archive from /tmp/otto056733654
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: dev
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/dev => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/dev
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: Vagrantfile.tpl
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: dev-dep
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/dev-dep => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/dev-dep
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: Vagrantfile.fragment.tpl
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying all assets: data/aws-simple => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: deploy
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying all assets: data/aws-simple/deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/deploy
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf.tpl
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [INFO] compile: looking for foundation layers for dev
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] compile: checking foundation dir: /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-dev
+2016/01/20 01:29:34 [DEBUG] otto: 2016/01/20 01:29:34 [DEBUG] compile: dir /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-dev has a layer!
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-build
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-build => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-build
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: upstart.conf.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-dev
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-dev => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-dev
+2016/01/20 01:29:34 [DEBUG] Copying asset: layer.id
+2016/01/20 01:29:34 [DEBUG] Copying asset: layer.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: upstart.conf
+2016/01/20 01:29:34 [DEBUG] Copying asset: app-dev-dep
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/app-dev-dep => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/app-dev-dep
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.sh.tpl
+2016/01/20 01:29:34 [DEBUG] Copying asset: deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: module-aws
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy/module-aws => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/deploy/module-aws
+2016/01/20 01:29:34 [DEBUG] Copying asset: join.sh
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: outputs.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: module-aws-simple
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/common/deploy/module-aws-simple => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/deploy/module-aws-simple
+2016/01/20 01:29:34 [DEBUG] Copying asset: setup.sh
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: outputs.tf
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/aws-simple => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul
+2016/01/20 01:29:34 [DEBUG] Copying asset: deploy
+2016/01/20 01:29:34 [DEBUG] Copying all assets: data/aws-simple/deploy => /home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/foundation-consul/deploy
+2016/01/20 01:29:34 [DEBUG] Copying asset: main.tf
+2016/01/20 01:29:34 [DEBUG] Copying asset: variables.tf
+2016/01/20 01:29:34 [DEBUG] waiting for all plugin processes to complete...
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal 0xb code=0x1 addr=0x0 pc=0x502888]
+
+goroutine 226 [running]:
+github.com/hashicorp/otto/plugin.(*Client).Kill(0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:190 +0x18
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:97 +0x21
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6
+
+goroutine 1 [semacquire]:
+sync.runtime_Semacquire(0xc8202e6bdc)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:43 +0x26
+sync.(*WaitGroup).Wait(0xc8202e6bd0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/waitgroup.go:126 +0xb4
+github.com/hashicorp/otto/plugin.CleanupClients()
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:103 +0x1c9
+main.wrappedMain(0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/main.go:137 +0x7c8
+main.realMain(0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/main.go:89 +0xca9
+main.main()
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/main.go:19 +0x18
+
+goroutine 17 [syscall]:
+os/signal.loop()
+	/Users/mitchellh/code/3rdparty/go/src/os/signal/signal_unix.go:22 +0x18
+created by os/signal.init.1
+	/Users/mitchellh/code/3rdparty/go/src/os/signal/signal_unix.go:28 +0x37
+
+goroutine 18 [select, locked to thread]:
+runtime.gopark(0xe40030, 0xc82002c728, 0xcd60a0, 0x6, 0x18, 0x2)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/proc.go:185 +0x163
+runtime.selectgoImpl(0xc82002c728, 0x0, 0x18)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/select.go:392 +0xa64
+runtime.selectgo(0xc82002c728)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/select.go:212 +0x12
+runtime.ensureSigM.func1()
+	/Users/mitchellh/code/3rdparty/go/src/runtime/signal1_unix.go:227 +0x353
+runtime.goexit()
+	/Users/mitchellh/code/3rdparty/go/src/runtime/asm_amd64.s:1721 +0x1
+
+goroutine 19 [chan receive]:
+main.initSignalHandlers.func1(0xc82017c7e0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/signal.go:19 +0x36
+created by main.initSignalHandlers
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/signal.go:22 +0xd3
+
+goroutine 49 [syscall]:
+syscall.Syscall(0x0, 0x8, 0xc820306000, 0x8000, 0xa, 0x1a, 0x4e97e0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x8, 0xc820306000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x8, 0xc820306000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc820170060, 0xc820306000, 0x8000, 0x8000, 0xc820306000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc820170060, 0xc820306000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc820170040, 0x7f233d41e298, 0xc820170060, 0xc820306000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc820170040, 0x7f233d41e298, 0xc820170060, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc82024e140, 0xc82016e2e0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 21 [semacquire]:
+sync.runtime_Syncsemacquire(0xc8201b8580)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc8201b8570)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc8201b8540, 0xc8201e0000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820160100, 0xc8201e0000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Scanner).Scan(0xc82017a700, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/scan.go:180 +0x877
+github.com/hashicorp/otto/command.(*Meta).FlagSet.func1(0xc82017a700, 0xc8201654c0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/command/meta.go:220 +0x25
+created by github.com/hashicorp/otto/command.(*Meta).FlagSet
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/command/meta.go:223 +0x358
+
+goroutine 45 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc820016b40)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 124 [runnable]:
+net.runtime_pollWait(0x7f233d39ab70, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc820345b10, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc820345b10, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc820345ab0, 0xc82061d000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc820320458, 0xc82061d000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc8202f95c0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8202f95c0, 0xc8202e7720, 0xc, 0xc, 0xc8202e7722, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8202f95c0, 0xc8202e7720, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8202f95c0, 0xc8202e7720, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc8203b6840, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc8203b6840)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 46 [IO wait]:
+net.runtime_pollWait(0x7f233d39ac30, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc82068c610, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc82068c610, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc82068c5b0, 0xc820694000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc820160468, 0xc820694000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc820690120)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc820690120, 0xc8201dbbb0, 0xc, 0xc, 0xc8201dbbb2, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc820690120, 0xc8201dbbb0, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc820690120, 0xc8201dbbb0, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc8201ae790, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc8201ae790)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 141 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Kill(0xc8201760c0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:199 +0x68
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0xc8201760c0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:97 +0x21
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6
+
+goroutine 143 [runnable]:
+github.com/hashicorp/otto/plugin.(*Client).Kill(0xc82016a1c0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:199 +0x68
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0xc82016a1c0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:97 +0x21
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6
+
+goroutine 31 [runnable]:
+syscall.Syscall(0x0, 0x3, 0xc82030e000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x3, 0xc82030e000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x3, 0xc82030e000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc820160148, 0xc82030e000, 0x8000, 0x8000, 0xc82030e000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc820160148, 0xc82030e000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc820160128, 0x7f233d41e298, 0xc820160148, 0xc82030e000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc820160128, 0x7f233d41e298, 0xc820160148, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820183a40, 0xc8201c7240)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 32 [runnable]:
+syscall.Syscall(0x0, 0x5, 0xc82039a000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x5, 0xc82039a000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x5, 0xc82039a000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc820160160, 0xc82039a000, 0x8000, 0x8000, 0xc82039a000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc820160160, 0xc82039a000, 0x8000, 0x8000, 0x47, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc820160138, 0x7f233d41e298, 0xc820160160, 0xc82039a000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc820160138, 0x7f233d41e298, 0xc820160160, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820183a40, 0xc8201c72a0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 33 [runnable]:
+syscall.Syscall6(0x3d, 0x5f26, 0xc82021157c, 0x0, 0xc820188f30, 0x0, 0x0, 0x5f26, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f26, 0xc82021157c, 0x0, 0xc820188f30, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f26, 0xc8202115c4, 0x0, 0xc820188f30, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc8201c7620, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc8201c7620, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc820183a40, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc820160138, 0xc820160128, 0xc820183a40, 0xc82017cd20, 0xc820165980)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 34 [semacquire]:
+sync.runtime_Syncsemacquire(0xc8201b8700)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc8201b86f0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc8201b86c0, 0xc8201ef000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820160130, 0xc8201ef000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820216ee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820216ee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820216ee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc820216ee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc820165980, 0x7f233d3da638, 0xc820160130)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 35 [semacquire]:
+sync.runtime_Syncsemacquire(0xc8201b8640)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc8201b8630)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc8201b8600, 0xc820478000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820160120, 0xc820478000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820217ee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820217ee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820217ee8, 0xc82017cd0a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc82017cd80, 0xc820160120)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 50 [syscall]:
+syscall.Syscall(0x0, 0xe, 0xc8203a8000, 0x8000, 0xa, 0x1a, 0x4e97e0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0xe, 0xc8203a8000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0xe, 0xc8203a8000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc820170078, 0xc8203a8000, 0x8000, 0x8000, 0xc8203a8000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc820170078, 0xc8203a8000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc820170050, 0x7f233d41e298, 0xc820170078, 0xc8203a8000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc820170050, 0x7f233d41e298, 0xc820170078, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc82024e140, 0xc82016e340)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 51 [syscall]:
+syscall.Syscall6(0x3d, 0x5f28, 0xc82002d57c, 0x0, 0xc8201f0090, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f28, 0xc82002d57c, 0x0, 0xc8201f0090, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f28, 0xc82002d5c4, 0x0, 0xc8201f0090, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc82016e6c0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc82016e6c0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc82024e140, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc820170050, 0xc820170040, 0xc82024e140, 0xc8201ec420, 0xc82016a300)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 52 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820268340)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc820268330)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc820268300, 0xc820422000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820170048, 0xc820422000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820049ee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820049ee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820049ee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc820049ee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc82016a300, 0x7f233d3da638, 0xc820170048)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 53 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820268280)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc820268270)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc820268240, 0xc8202fa000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820170038, 0xc8202fa000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820048ee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820048ee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820048ee8, 0xc8201ec40a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc8201ec480, 0xc820170038)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 65 [runnable]:
+syscall.Syscall(0x0, 0x10, 0xc82032a000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x10, 0xc82032a000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x10, 0xc82032a000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc82025a048, 0xc82032a000, 0x8000, 0x8000, 0xc82032a000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc82025a048, 0xc82032a000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc82025a028, 0x7f233d41e298, 0xc82025a048, 0xc82032a000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc82025a028, 0x7f233d41e298, 0xc82025a048, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820230140, 0xc820252160)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 66 [runnable]:
+syscall.Syscall(0x0, 0x12, 0xc8203e4000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x12, 0xc8203e4000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x12, 0xc8203e4000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc82025a060, 0xc8203e4000, 0x8000, 0x8000, 0xc8203e4000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc82025a060, 0xc8203e4000, 0x8000, 0x8000, 0x8a, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc82025a038, 0x7f233d41e298, 0xc82025a060, 0xc8203e4000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc82025a038, 0x7f233d41e298, 0xc82025a060, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820230140, 0xc8202521c0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 67 [runnable]:
+syscall.Syscall6(0x3d, 0x5f29, 0xc82002dd7c, 0x0, 0xc82045a000, 0x0, 0x0, 0x5f29, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f29, 0xc82002dd7c, 0x0, 0xc82045a000, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f29, 0xc82002ddc4, 0x0, 0xc82045a000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc820252540, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc820252540, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc820230140, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc82025a038, 0xc82025a028, 0xc820230140, 0xc8202363c0, 0xc820212280)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 68 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820256280)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc820256270)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc820256240, 0xc820323000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc82025a030, 0xc820323000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc82021cee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc82021cee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc82021cee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc82021cee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc820212280, 0x7f233d3da638, 0xc82025a030)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 69 [semacquire]:
+sync.runtime_Syncsemacquire(0xc8202561c0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc8202561b0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc820256180, 0xc820322000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc82025a020, 0xc820322000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc82021bee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc82021bee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc82021bee8, 0xc82023640a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc820236420, 0xc82025a020)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 81 [runnable]:
+syscall.Syscall(0x0, 0x4, 0xc820352000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x4, 0xc820352000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x4, 0xc820352000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc8202de028, 0xc820352000, 0x8000, 0x8000, 0xc820352000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc8202de028, 0xc820352000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc8202de008, 0x7f233d41e298, 0xc8202de028, 0xc820352000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc8202de008, 0x7f233d41e298, 0xc8202de028, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820258000, 0xc8202800c0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 82 [runnable]:
+syscall.Syscall(0x0, 0x13, 0xc8203c8000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x13, 0xc8203c8000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x13, 0xc8203c8000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc8202de040, 0xc8203c8000, 0x8000, 0x8000, 0xc8203c8000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc8202de040, 0xc8203c8000, 0x8000, 0x8000, 0x9c, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc8202de018, 0x7f233d41e298, 0xc8202de040, 0xc8203c8000, 0x8000, 0x8000, 0xb9f, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc8202de018, 0x7f233d41e298, 0xc8202de040, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820258000, 0xc820280120)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 83 [runnable]:
+syscall.Syscall6(0x3d, 0x5f34, 0xc82034ad7c, 0x0, 0xc8203d0000, 0x0, 0x0, 0x5f34, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f34, 0xc82034ad7c, 0x0, 0xc8203d0000, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f34, 0xc82034adc4, 0x0, 0xc8203d0000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc8202804a0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc8202804a0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc820258000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc8202de018, 0xc8202de008, 0xc820258000, 0xc82025c300, 0xc82024a080)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 84 [semacquire]:
+sync.runtime_Syncsemacquire(0xc82028e100)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc82028e0f0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc82028e0c0, 0xc82042c000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc8202de010, 0xc82042c000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820265ee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820265ee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820265ee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc820265ee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc82024a080, 0x7f233d3da638, 0xc8202de010)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 85 [semacquire]:
+sync.runtime_Syncsemacquire(0xc82028e040)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc82028e030)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc82028e000, 0xc82034e000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc8202de000, 0xc82034e000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820264ee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820264ee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820264ee8, 0xc82025c30a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc82025c360, 0xc8202de000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 98 [runnable]:
+syscall.Syscall(0x0, 0xd, 0xc8203ec000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0xd, 0xc8203ec000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0xd, 0xc8203ec000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc8202be020, 0xc8203ec000, 0x8000, 0x8000, 0xc8203ec000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc8202be020, 0xc8203ec000, 0x8000, 0x8000, 0x8a, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc82025a018, 0x7f233d41e298, 0xc8202be020, 0xc8203ec000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc82025a018, 0x7f233d41e298, 0xc8202be020, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820230000, 0xc8202c8060)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 99 [runnable]:
+syscall.Syscall6(0x3d, 0x5f2f, 0xc82034757c, 0x0, 0xc82045c000, 0x0, 0x0, 0x5f2f, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f2f, 0xc82034757c, 0x0, 0xc82045c000, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f2f, 0xc8203475c4, 0x0, 0xc82045c000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc8202c83e0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc8202c83e0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc820230000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc82025a018, 0xc82025a008, 0xc820230000, 0xc8202d8180, 0xc820212140)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 100 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820256100)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc8202560f0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc8202560c0, 0xc82035b000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc82025a010, 0xc82035b000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820361ee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820361ee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820361ee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc820361ee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc820212140, 0x7f233d3da638, 0xc82025a010)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 101 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820256040)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc820256030)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc820256000, 0xc82035a000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc82025a000, 0xc82035a000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820360ee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820360ee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820360ee8, 0xc8202d810a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc8202d81e0, 0xc82025a000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 113 [syscall]:
+syscall.Syscall(0x0, 0x1a, 0xc820376000, 0x8000, 0xa, 0x1a, 0x4e97e0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x1a, 0xc820376000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x1a, 0xc820376000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc820320028, 0xc820376000, 0x8000, 0x8000, 0xc820376000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc820320028, 0xc820376000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc820320008, 0x7f233d41e298, 0xc820320028, 0xc820376000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc820320008, 0x7f233d41e298, 0xc820320028, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc8202f6000, 0xc82031a100)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 114 [syscall]:
+syscall.Syscall(0x0, 0x1c, 0xc8203b8000, 0x8000, 0xa, 0x1a, 0x4e97e0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x1c, 0xc8203b8000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x1c, 0xc8203b8000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc820320040, 0xc8203b8000, 0x8000, 0x8000, 0xc8203b8000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc820320040, 0xc8203b8000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc820320018, 0x7f233d41e298, 0xc820320040, 0xc8203b8000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc820320018, 0x7f233d41e298, 0xc820320040, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc8202f6000, 0xc82031a160)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 115 [syscall]:
+syscall.Syscall6(0x3d, 0x5f39, 0xc820370d7c, 0x0, 0xc82033a090, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f39, 0xc820370d7c, 0x0, 0xc82033a090, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f39, 0xc820370dc4, 0x0, 0xc82033a090, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc82031a500, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc82031a500, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc8202f6000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc820320018, 0xc820320008, 0xc8202f6000, 0xc8202f8300, 0xc820290080)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 116 [semacquire]:
+sync.runtime_Syncsemacquire(0xc82031e100)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc82031e0f0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc82031e0c0, 0xc820448000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820320010, 0xc820448000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820261ee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820261ee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820261ee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc820261ee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc820290080, 0x7f233d3da638, 0xc820320010)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 117 [semacquire]:
+sync.runtime_Syncsemacquire(0xc82031e040)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc82031e030)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc82031e000, 0xc820374000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820320000, 0xc820374000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820260ee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820260ee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820260ee8, 0xc8202f830a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc8202f8360, 0xc820320000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 129 [runnable]:
+syscall.Syscall(0x0, 0x14, 0xc820392000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x14, 0xc820392000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x14, 0xc820392000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc8202cc008, 0xc820392000, 0x8000, 0x8000, 0xc820392000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc8202cc008, 0xc820392000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc820170020, 0x7f233d41e298, 0xc8202cc008, 0xc820392000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc820170020, 0x7f233d41e298, 0xc8202cc008, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc82024e000, 0xc82037e000)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 130 [runnable]:
+syscall.Syscall(0x0, 0x7, 0xc820440000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x7, 0xc820440000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x7, 0xc820440000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc8202cc020, 0xc820440000, 0x8000, 0x8000, 0xc820440000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc8202cc020, 0xc820440000, 0x8000, 0x8000, 0x47, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc820170030, 0x7f233d41e298, 0xc8202cc020, 0xc820440000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc820170030, 0x7f233d41e298, 0xc8202cc020, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc82024e000, 0xc82037e060)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 131 [runnable]:
+syscall.Syscall6(0x3d, 0x5f45, 0xc82036d57c, 0x0, 0xc82049a000, 0x0, 0x0, 0x5f45, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f45, 0xc82036d57c, 0x0, 0xc82049a000, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f45, 0xc82036d5c4, 0x0, 0xc82049a000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc82037e3e0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc82037e3e0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc82024e000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc820170030, 0xc820170020, 0xc82024e000, 0xc820384180, 0xc82016a1c0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 132 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820268100)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc8202680f0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc8202680c0, 0xc820504000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820170028, 0xc820504000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc8204f1ee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc8204f1ee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc8204f1ee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc8204f1ee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc82016a1c0, 0x7f233d3da638, 0xc820170028)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 133 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820268040)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc820268030)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc820268000, 0xc820390000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc820170018, 0xc820390000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc82035cee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc82035cee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc82035cee8, 0xc82038410a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc8203841e0, 0xc820170018)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 54 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc8201ec480)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 55 [IO wait]:
+net.runtime_pollWait(0x7f233d39b170, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc820226140, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc820226140, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc8202260e0, 0xc8202fb000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc820170088, 0xc8202fb000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc8201ec540)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8201ec540, 0xc8202c4160, 0xc, 0xc, 0xc8202c4162, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8201ec540, 0xc8202c4160, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8201ec540, 0xc8202c4160, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc8203a6000, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc8203a6000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 56 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc8203a6000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 57 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc8203a6000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 118 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc8202f8360)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 119 [IO wait]:
+net.runtime_pollWait(0x7f233d39b0b0, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc8203440d0, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc8203440d0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc820344070, 0xc820375000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc820320050, 0xc820375000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc8202f8420)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8202f8420, 0xc8202c4150, 0xc, 0xc, 0xc8202c4152, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8202f8420, 0xc8202c4150, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8202f8420, 0xc8202c4150, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc8203b6000, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc8203b6000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 120 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc8203b6000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 121 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc8203b6000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 86 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc82025c360)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 87 [IO wait]:
+net.runtime_pollWait(0x7f233d39aff0, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc8203380d0, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc8203380d0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc820338070, 0xc82034f000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc8202de050, 0xc82034f000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc82025c420)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc82025c420, 0xc8202c4170, 0xc, 0xc, 0xc8202c4172, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc82025c420, 0xc8202c4170, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc82025c420, 0xc8202c4170, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc8203c4000, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc8203c4000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 88 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc8203c4000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 89 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc8203c4000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 6 [runnable]:
+syscall.Syscall(0x0, 0x9, 0xc8203d4000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x9, 0xc8203d4000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x9, 0xc8203d4000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc820034108, 0xc8203d4000, 0x8000, 0x8000, 0xc8203d4000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc820034108, 0xc8203d4000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc8200340e8, 0x7f233d41e298, 0xc820034108, 0xc8203d4000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc8200340e8, 0x7f233d41e298, 0xc820034108, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc8200a3040, 0xc820174120)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 7 [runnable]:
+syscall.Syscall(0x0, 0xb, 0xc820408000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0xb, 0xc820408000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0xb, 0xc820408000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc820034120, 0xc820408000, 0x8000, 0x8000, 0xc820408000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc820034120, 0xc820408000, 0x8000, 0x8000, 0x47, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc8200340f8, 0x7f233d41e298, 0xc820034120, 0xc820408000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc8200340f8, 0x7f233d41e298, 0xc820034120, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc8200a3040, 0xc820174180)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 8 [runnable]:
+syscall.Syscall6(0x3d, 0x5f53, 0xc820032d7c, 0x0, 0xc82008e900, 0x0, 0x0, 0x5f53, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f53, 0xc820032d7c, 0x0, 0xc82008e900, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f53, 0xc820032dc4, 0x0, 0xc82008e900, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc820174500, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc820174500, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc8200a3040, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc8200340f8, 0xc8200340e8, 0xc8200a3040, 0xc820016ae0, 0xc8201760c0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 9 [semacquire]:
+sync.runtime_Syncsemacquire(0xc82024c100)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc82024c0f0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc82024c0c0, 0xc8204d0000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc8200340f0, 0xc8204d0000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc82004dee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc82004dee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc82004dee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc82004dee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc8201760c0, 0x7f233d3da638, 0xc8200340f0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 10 [semacquire]:
+sync.runtime_Syncsemacquire(0xc82024c040)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc82024c030)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc82024c000, 0xc8200e7000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc8200340e0, 0xc8200e7000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc82004cee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc82004cee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc82004cee8, 0xc820016b0a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc820016b40, 0xc8200340e0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 37 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc82017cd80)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 38 [runnable]:
+net.runtime_pollWait(0x7f233d39af30, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc8201c9330, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc8201c9330, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc8201c92d0, 0xc820479000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc820160178, 0xc820479000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc82017cf60)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc82017cf60, 0xc82011a790, 0xc, 0xc, 0xc82011a792, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc82017cf60, 0xc82011a790, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc82017cf60, 0xc82011a790, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc8201ae160, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc8201ae160)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 39 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc8201ae160)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 40 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc8201ae160)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 11 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc8203b6000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc8201745a0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 12 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8203160d0, 0xc82050e000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc820016fc0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc820016fc0, 0xc82011a820, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc820016fc0, 0xc82011a820, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc820016fc0, 0xc82011a820, 0x1, 0x9, 0xc82009e4f0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc820016fc0, 0xc82011a820, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc82009e480, 0xc820603bc0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc82009e480, 0xe40000, 0xc82009e480)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc82009e480, 0xa56c80, 0xc82011cf90, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc82009e480, 0xa56c80, 0xc82011cf90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc82011cba0, 0xc82011cf90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc820017080)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 13 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc82011e750, 0xc820510000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc82011e750, 0xc820510000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc82011e750, 0x7f233d3da638, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc82011e750)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 14 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc82011e820, 0xc820518000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc82011e820, 0xc820518000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc82011e820, 0x1000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc82011e820)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 102 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc8203c4000, 0xe3f308, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc8202c8480)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 103 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8202760d0, 0xc820522000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc8202d86c0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8202d86c0, 0xc8202c4200, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8202d86c0, 0xc8202c4200, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8202d86c0, 0xc8202c4200, 0x1, 0x9, 0xc820520070, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc8202d86c0, 0xc8202c4200, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc820520000, 0xc8208a3bd0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc820520000, 0xe40000, 0xc820520000)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc820520000, 0xa56c80, 0xc8202c2540, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc820520000, 0xa56c80, 0xc8202c2540, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc8202c2480, 0xc8202c2540, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc8202d8780)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 104 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8203500d0, 0xc820528000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8203500d0, 0xc820528000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8203500d0, 0xc8202c4170, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8203500d0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 105 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8203501a0, 0xc820538000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8203501a0, 0xc820538000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8203501a0, 0xc8202c4160, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8203501a0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 41 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc8201ae160, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc8201c77a0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 42 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201d9d40, 0xc820543000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc82017d800)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc82017d800, 0xc8201dabc0, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc82017d800, 0xc8201dabc0, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc82017d800, 0xc8201dabc0, 0x1, 0x9, 0xc82017ab70, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc82017d800, 0xc8201dabc0, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc82017ab00, 0xc82059bbc0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc82017ab00, 0xe40000, 0xc82017ab00)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc82017ab00, 0xa56c80, 0xc8201dd290, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc82017ab00, 0xa56c80, 0xc8201dd290, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc8201dd1d0, 0xc8201dd290, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc82017d8c0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 43 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201d9e10, 0xc820544000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201d9e10, 0xc820544000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201d9e10, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201d9e10)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 44 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201d9ee0, 0xc82054c000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201d9ee0, 0xc82054c000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201d9ee0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201d9ee0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 58 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc8203a6000, 0xc820422000, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc82016e840)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 59 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201ea1a0, 0xc820554000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc8201ecd80)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8201ecd80, 0xc820166710, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8201ecd80, 0xc820166710, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8201ecd80, 0xc820166710, 0x1, 0x9, 0xc8201724f0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc8201ecd80, 0xc820166710, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc820172480, 0xc820597bc0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc820172480, 0xe40000, 0xc820172480)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc820172480, 0xa56c80, 0xc820168b70, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc820172480, 0xa56c80, 0xc820168b70, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc820168ab0, 0xc820168b70, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc8201ece40)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 60 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201ea270, 0xc820556000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201ea270, 0xc820556000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201ea270, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201ea270)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 61 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201ea340, 0xc82055e000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201ea340, 0xc82055e000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201ea340, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201ea340)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 62 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc8203841e0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 63 [runnable]:
+net.runtime_pollWait(0x7f233d39ae70, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc8202263e0, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc8202263e0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc820226380, 0xc820555000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc820170098, 0xc820555000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc8201ecf60)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8201ecf60, 0xc820166810, 0xc, 0xc, 0xc820166812, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8201ecf60, 0xc820166810, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8201ecf60, 0xc820166810, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc8203a6160, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc8203a6160)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 64 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc8203a6160)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 145 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc8203a6160)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 70 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc820236420)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 90 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc8202d81e0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 91 [runnable]:
+net.runtime_pollWait(0x7f233d39adb0, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc820338370, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc820338370, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc820338310, 0xc82042d000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc8202de058, 0xc82042d000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc82025c8a0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc82025c8a0, 0xc8202e2180, 0xc, 0xc, 0xc8202e2182, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc82025c8a0, 0xc8202e2180, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc82025c8a0, 0xc8202e2180, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc8203c40b0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc8203c40b0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 92 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc8203c40b0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 93 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc8203c40b0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 71 [runnable]:
+net.runtime_pollWait(0x7f233d39acf0, 0x72, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/netpoll.go:157 +0x60
+net.(*pollDesc).Wait(0xc8202bc0d0, 0x72, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:73 +0x3a
+net.(*pollDesc).WaitRead(0xc8202bc0d0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_poll_runtime.go:78 +0x36
+net.(*netFD).Read(0xc8202bc070, 0xc820578000, 0x1000, 0x1000, 0x0, 0x7f233d41a050, 0xc82000e1f0)
+	/Users/mitchellh/code/3rdparty/go/src/net/fd_unix.go:232 +0x23a
+net.(*conn).Read(0xc82025a070, 0xc820578000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/net.go:172 +0xe4
+bufio.(*Reader).fill(0xc8202364e0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8202364e0, 0xc82022a320, 0xc, 0xc, 0xc82022a322, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8202364e0, 0xc82022a320, 0xc, 0xc, 0xc, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8202364e0, 0xc82022a320, 0xc, 0xc, 0xc, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+github.com/hashicorp/yamux.(*Session).recvLoop(0xc82057e000, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:408 +0x11e
+github.com/hashicorp/yamux.(*Session).recv(0xc82057e000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:396 +0x21
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:104 +0x4b1
+
+goroutine 72 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc82057e000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 73 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc82057e000)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 146 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc8203a6160, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc82016e9c0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 147 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201ea410, 0xc82059d000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc8201ed7a0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8201ed7a0, 0xc8201668a0, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8201ed7a0, 0xc8201668a0, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8201ed7a0, 0xc8201668a0, 0x1, 0x9, 0xc820172770, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc8201ed7a0, 0xc8201668a0, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc820172700, 0xc820627bc0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc820172700, 0xe40000, 0xc820172700)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc820172700, 0xa56c80, 0xc8201dd5f0, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc820172700, 0xa56c80, 0xc8201dd5f0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc820168d80, 0xc8201dd5f0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc8201ed860)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 148 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201ea4e0, 0xc8205a8000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201ea4e0, 0xc8205a8000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201ea4e0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8201ea4e0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 149 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8201ea5b0, 0xc8205b4000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201ea5b0, 0xc8205b4000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201ea5b0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8201ea5b0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 134 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc8203c40b0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc82037e480)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 135 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8202761a0, 0xc8205a0000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc8203846c0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8203846c0, 0xc8202e2210, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8203846c0, 0xc8202e2210, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8203846c0, 0xc8202e2210, 0x1, 0x9, 0xc82059e070, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc8203846c0, 0xc8202e2210, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc82059e000, 0xc820615bc0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc82059e000, 0xe40000, 0xc82059e000)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc82059e000, 0xa56c80, 0xc8202da540, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc82059e000, 0xa56c80, 0xc8202da540, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc8202da480, 0xc8202da540, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc820384780)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 136 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc82038e0d0, 0xc8205cc000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc82038e0d0, 0xc8205cc000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc82038e0d0, 0x1000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc82038e0d0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 137 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc82038e1a0, 0xc8205c4000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc82038e1a0, 0xc8205c4000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc82038e1a0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc82038e1a0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 74 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc82057e000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc8202526e0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 75 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc820580000, 0xc8205a4000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc820236d20)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc820236d20, 0xc82022a3b0, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc820236d20, 0xc82022a3b0, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc820236d20, 0xc82022a3b0, 0x1, 0x9, 0xc82027e370, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc820236d20, 0xc82022a3b0, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc82027e300, 0xc820619bc0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc82027e300, 0xe40000, 0xc82027e300)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc82027e300, 0xa56c80, 0xc82011d500, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc82027e300, 0xa56c80, 0xc82011d500, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc82022c600, 0xc82011d500, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc820236de0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 76 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8205800d0, 0xc8205d4000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8205800d0, 0xc8205d4000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8205800d0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc8205800d0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 77 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc8205801a0, 0xc8205dc000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8205801a0, 0xc8205dc000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8205801a0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc8205801a0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 123 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Start.func4.1(0xc820236fc0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:303 +0x52
+created by github.com/hashicorp/otto/plugin.(*Client).Start.func4
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:305 +0x35
+
+goroutine 142 [runnable]:
+github.com/hashicorp/otto/plugin.(*Client).Kill(0xc820212140)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:199 +0x68
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0xc820212140)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:97 +0x21
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6
+
+goroutine 140 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Kill(0xc820165980)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:199 +0x68
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0xc820165980)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:97 +0x21
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6
+
+goroutine 78 [runnable]:
+syscall.Syscall(0x0, 0x19, 0xc82064a000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x19, 0xc82064a000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x19, 0xc82064a000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc8202cc340, 0xc82064a000, 0x8000, 0x8000, 0xc82064a000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc8202cc340, 0xc82064a000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc8202cc320, 0x7f233d41e298, 0xc8202cc340, 0xc82064a000, 0x8000, 0x8000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc8202cc320, 0x7f233d41e298, 0xc8202cc340, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820636000, 0xc82037f760)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 79 [runnable]:
+syscall.Syscall(0x0, 0x1d, 0xc820652000, 0x8000, 0x0, 0x8000, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:18 +0x5
+syscall.read(0x1d, 0xc820652000, 0x8000, 0x8000, 0x42f912, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:783 +0x5f
+syscall.Read(0x1d, 0xc820652000, 0x8000, 0x8000, 0x4561c0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_unix.go:160 +0x4d
+os.(*File).read(0xc8202cc358, 0xc820652000, 0x8000, 0x8000, 0xc820652000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file_unix.go:211 +0x53
+os.(*File).Read(0xc8202cc358, 0xc820652000, 0x8000, 0x8000, 0x47, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/file.go:95 +0x8a
+io.copyBuffer(0x7f233d3da660, 0xc8202cc330, 0x7f233d41e298, 0xc8202cc358, 0xc820652000, 0x8000, 0x8000, 0xeb, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d3da660, 0xc8202cc330, 0x7f233d41e298, 0xc8202cc358, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+os/exec.(*Cmd).writerDescriptor.func1(0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:232 +0x8b
+os/exec.(*Cmd).Start.func1(0xc820636000, 0xc82037f7c0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:340 +0x1d
+created by os/exec.(*Cmd).Start
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:341 +0x96d
+
+goroutine 80 [runnable]:
+syscall.Syscall6(0x3d, 0x5f87, 0xc82064457c, 0x0, 0xc82045a120, 0x0, 0x0, 0x5f87, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/asm_linux_amd64.s:44 +0x5
+syscall.wait4(0x5f87, 0xc82064457c, 0x0, 0xc82045a120, 0x90, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/zsyscall_linux_amd64.go:172 +0x72
+syscall.Wait4(0x5f87, 0xc8206445c4, 0x0, 0xc82045a120, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/syscall/syscall_linux.go:256 +0x55
+os.(*Process).wait(0xc820252740, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec_unix.go:22 +0x105
+os.(*Process).Wait(0xc820252740, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/doc.go:45 +0x2d
+os/exec.(*Cmd).Wait(0xc820636000, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/os/exec/exec.go:380 +0x211
+github.com/hashicorp/otto/plugin.(*Client).Start.func2(0xc8202cc330, 0xc8202cc320, 0xc820636000, 0xc820236f60, 0xc8202c1600)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:262 +0x7b
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:275 +0xf73
+
+goroutine 161 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820638100)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc8206380f0)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc8206380c0, 0xc820668000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc8202cc328, 0xc820668000, 0x1000, 0x1000, 0x5d351d, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820568ee0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820568ee0, 0x4e990a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820568ee0, 0xc82001800a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+bufio.(*Reader).ReadString(0xc820568ee0, 0xa, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:446 +0x4d
+github.com/hashicorp/otto/plugin.(*Client).logStderr(0xc8202c1600, 0x7f233d3da638, 0xc8202cc328)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:352 +0xac
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:278 +0xfd9
+
+goroutine 162 [semacquire]:
+sync.runtime_Syncsemacquire(0xc820638040)
+	/Users/mitchellh/code/3rdparty/go/src/runtime/sema.go:237 +0x201
+sync.(*Cond).Wait(0xc820638030)
+	/Users/mitchellh/code/3rdparty/go/src/sync/cond.go:62 +0x9b
+io.(*pipe).read(0xc820638000, 0xc8205a5000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:52 +0x2d2
+io.(*PipeReader).Read(0xc8202cc318, 0xc8205a5000, 0x1000, 0x1000, 0x21, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/pipe.go:134 +0x50
+bufio.(*Reader).fill(0xc820567ee8)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).ReadSlice(0xc820567ee8, 0xa, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:328 +0x21a
+bufio.(*Reader).ReadBytes(0xc820567ee8, 0xc820236f0a, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:406 +0xa9
+github.com/hashicorp/otto/plugin.(*Client).Start.func3(0xc820236fc0, 0xc8202cc318)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:288 +0x107
+created by github.com/hashicorp/otto/plugin.(*Client).Start
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:297 +0x1026
+
+goroutine 47 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc8201ae790)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 48 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc8201ae790)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 177 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc8201ae790, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc82068ea60)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 178 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc820588270, 0xc820696000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc820690960)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc820690960, 0xc8201dbc40, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc820690960, 0xc8201dbc40, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc820690960, 0xc8201dbc40, 0x1, 0x9, 0xc82017adf0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc820690960, 0xc8201dbc40, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc82017ad80, 0xc820687bc0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc82017ad80, 0xe40000, 0xc82017ad80)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc82017ad80, 0xa56c80, 0xc820692450, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc82017ad80, 0xa56c80, 0xc820692450, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc820692390, 0xc820692450, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc820690a20)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 179 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc820588340, 0xc82069a000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc820588340, 0xc82069a000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc820588340, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc820588340)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 180 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc820588410, 0xc8206a2000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc820588410, 0xc8206a2000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc820588410, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc820588410)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 125 [select]:
+github.com/hashicorp/yamux.(*Session).send(0xc8203b6840)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:358 +0x5e1
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:105 +0x4d3
+
+goroutine 126 [select]:
+github.com/hashicorp/yamux.(*Session).keepalive(0xc8203b6840)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:292 +0x240
+created by github.com/hashicorp/yamux.newSession
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:107 +0x506
+
+goroutine 127 [select]:
+github.com/hashicorp/yamux.(*Session).AcceptStream(0xc8203b6840, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/session.go:191 +0x19d
+github.com/hashicorp/otto/rpc.(*muxBroker).Run(0xc82031bee0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/mux_broker.go:107 +0x34
+created by github.com/hashicorp/otto/rpc.NewClient
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:66 +0x36f
+
+goroutine 128 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc820316680, 0xc8206c5000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+bufio.(*Reader).fill(0xc8202f9e00)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:97 +0x1e9
+bufio.(*Reader).Read(0xc8202f9e00, 0xc8202e77b0, 0x1, 0x9, 0xe3e430, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/bufio/bufio.go:207 +0x260
+io.ReadAtLeast(0x7f233d422c80, 0xc8202f9e00, 0xc8202e77b0, 0x1, 0x9, 0x1, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:298 +0xe6
+io.ReadFull(0x7f233d422c80, 0xc8202f9e00, 0xc8202e77b0, 0x1, 0x9, 0xc8203b04f0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:316 +0x62
+encoding/gob.decodeUintReader(0x7f233d422c80, 0xc8202f9e00, 0xc8202e77b0, 0x9, 0x9, 0x0, 0x1, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decode.go:121 +0x92
+encoding/gob.(*Decoder).recvMessage(0xc8203b0480, 0xc820305bc0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:76 +0x5e
+encoding/gob.(*Decoder).decodeTypeSequence(0xc8203b0480, 0xe40000, 0xc8203b0480)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:140 +0x47
+encoding/gob.(*Decoder).DecodeValue(0xc8203b0480, 0xa56c80, 0xc8202ebc80, 0x16, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:208 +0x15d
+encoding/gob.(*Decoder).Decode(0xc8203b0480, 0xa56c80, 0xc8202ebc80, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/encoding/gob/decoder.go:185 +0x289
+net/rpc.(*gobClientCodec).ReadResponseHeader(0xc8202ebbc0, 0xc8202ebc80, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:223 +0x51
+net/rpc.(*Client).input(0xc8202f9ec0)
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:109 +0xbf
+created by net/rpc.NewClientWithCodec
+	/Users/mitchellh/code/3rdparty/go/src/net/rpc/client.go:201 +0xd2
+
+goroutine 193 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc820316750, 0xc8206c8000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc820316750, 0xc8206c8000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc820316750, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66b8, 0x6, 0x7f233d41e1c0, 0xc820034010, 0x7f233d422d68, 0xc820316750)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:85 +0xb2
+
+goroutine 194 [select]:
+github.com/hashicorp/yamux.(*Stream).Read(0xc820316820, 0xc8206d0000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/yamux/stream.go:125 +0x3f0
+io.copyBuffer(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc820316820, 0xc8206d0000, 0x8000, 0x8000, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:381 +0x247
+io.Copy(0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc820316820, 0x0, 0x0, 0x0)
+	/Users/mitchellh/code/3rdparty/go/src/io/io.go:351 +0x64
+github.com/hashicorp/otto/rpc.copyStream(0xcd66a0, 0x6, 0x7f233d41e1c0, 0xc820034018, 0x7f233d422d68, 0xc820316820)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/stream.go:15 +0x171
+created by github.com/hashicorp/otto/rpc.(*Client).SyncStreams
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/rpc/client.go:86 +0x141
+
+goroutine 144 [runnable]:
+github.com/hashicorp/otto/plugin.(*Client).Kill(0xc82024a080)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:199 +0x68
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0xc82024a080)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:97 +0x21
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6
+
+goroutine 225 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Kill(0xc820212280)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:199 +0x68
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0xc820212280)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:97 +0x21
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6
+
+goroutine 227 [runnable]:
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0xc820290080)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:96
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6
+
+goroutine 228 [chan receive]:
+github.com/hashicorp/otto/plugin.(*Client).Kill(0xc8202c1600)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:199 +0x68
+github.com/hashicorp/otto/plugin.CleanupClients.func1(0xc8202e6bd0, 0xc8202c1600)
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:97 +0x21
+created by github.com/hashicorp/otto/plugin.CleanupClients
+	/Users/mitchellh/code/go/src/github.com/hashicorp/otto/plugin/client.go:99 +0xd6

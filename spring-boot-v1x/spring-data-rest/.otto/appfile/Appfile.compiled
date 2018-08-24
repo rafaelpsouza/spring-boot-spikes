@@ -1,0 +1,69 @@
+{
+    "File": {
+        "ID": "60dd383f-58a4-d395-2775-8822d729bf17",
+        "Path": "/home/rafael/sources/spring-boot-spikes/spring-data-rest/Appfile",
+        "Source": "",
+        "Application": {
+            "Name": "spring-data-rest",
+            "Type": "java",
+            "Detect": true,
+            "Dependencies": null
+        },
+        "Project": {
+            "Name": "spring-data-rest",
+            "Infrastructure": "spring-data-rest"
+        },
+        "Infrastructure": [
+            {
+                "Name": "spring-data-rest",
+                "Type": "aws",
+                "Flavor": "simple",
+                "Foundations": [
+                    {
+                        "Name": "consul",
+                        "Config": null
+                    }
+                ]
+            }
+        ],
+        "Customization": null,
+        "Imports": null
+    },
+    "Vertices": [
+        {
+            "File": {
+                "ID": "60dd383f-58a4-d395-2775-8822d729bf17",
+                "Path": "/home/rafael/sources/spring-boot-spikes/spring-data-rest/Appfile",
+                "Source": "",
+                "Application": {
+                    "Name": "spring-data-rest",
+                    "Type": "java",
+                    "Detect": true,
+                    "Dependencies": null
+                },
+                "Project": {
+                    "Name": "spring-data-rest",
+                    "Infrastructure": "spring-data-rest"
+                },
+                "Infrastructure": [
+                    {
+                        "Name": "spring-data-rest",
+                        "Type": "aws",
+                        "Flavor": "simple",
+                        "Foundations": [
+                            {
+                                "Name": "consul",
+                                "Config": null
+                            }
+                        ]
+                    }
+                ],
+                "Customization": null,
+                "Imports": null
+            },
+            "Dir": "",
+            "NameValue": "spring-data-rest"
+        }
+    ],
+    "Edges": []
+}

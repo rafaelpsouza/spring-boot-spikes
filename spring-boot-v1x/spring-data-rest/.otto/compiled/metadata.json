@@ -1,0 +1,1 @@
+{"app":{"version":1,"foundation_config":{"ServiceName":"spring-data-rest","ServicePort":0,"ServiceTags":null},"dev_dep_fragment_path":"/home/rafael/sources/spring-boot-spikes/spring-data-rest/.otto/compiled/app/dev-dep/Vagrantfile.fragment","foundation_results":null},"app_deps":{},"infra":null,"foundations":{"consul":null}}
