@@ -5,3 +5,5 @@
 bin/
 build/
 .nb-gradle/
+.idea/
+out/
